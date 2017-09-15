@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#content{
+    width: 320px;
+    height: 568px;
+    margin:0 auto;
+}
+#start{
+    width: 320px;
+    height: 568px;
+    background-image: url(../image/开始背景.png);
+    position:relative;
+}
+input{
+    outline: none;
+    cursor: pointer;
+}
+#start input{
+    position: absolute;
+    top: 500px;
+    left: 82px;
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: #c4c9ca;
+}
+#main{
+	display:none;
+	
+}
+canvas{
+	background-image:url(../image/background_1.png);
+}
